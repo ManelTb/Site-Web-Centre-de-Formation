@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<head>
+ <meta charset="utf-8">
+ <style type="text/css"> 
+ p
+ { color :rgb(24, 5, 128)  ;
+  font-family :times ;
+  text-align: left;
+  font-style: normal;
+  font-size : 150% ;
+ }
+ h1{
+   font-family :times ;
+  text-align: center;
+  text-decoration: underline;
+  font-style: normal;
+  font-size : 180% ;
+  color: darkslateblue;
+  background-color: honeydew;
+ }
+ h2{
+   font-family :times ;
+   font-style: normal;
+   font-size : 150% ;
+   color:firebrick;
+ 
+ 
+ }
+ strong{
+   color: indigo;
+   text-align: center;
+   font-style: normal;
+   background-color: beige;
+ 
+ }
+ mark
+ {color:rgb(119, 4, 113)}
+ a:visited 
+ {text-decoration:overline ;
+  color :rgba(28, 28, 235, 0.747) (112, 153, 49) ;
+  }
+  input,select 
+  {padding:5px;
+   border:1px solid rgb(129, 129, 38);
+   border-radius:2em;
+   width:200px;
+   box-shadow: 1px 1px 2px burlywood;
+   margin-top:5px;}
+   table
+ { border:grey;
+ background-color:#d5dfee;
+ margin:auto;
+ text-align :center;
+  }
+ th
+ {
+ color:#2c2a2a;
+ font-family:"times new roman";
+ padding:5px;
+ margin:20px; }
+ 
+ 
+  form
+  {margin-bottom:50px;
+   margin-right:50px;
+   margin-left :260px;
+   margin-top:50px;
+   width:50%;
+   border: 2px solid whitesmoke;
+   border-radius :2em ;
+   background-color:whitesmoke;
+  } 
+  textarea
+  { vertical-align:top;
+    height: 250px;}
+ legend
+ {font-style: oblique;
+     font-size:20px;
+ } 
+ </style>
+</head>
+<body>
+<form method="post" action="">
+ <fieldset>
+<legend> Vos coordonnées personnelles restent strictement confidentielles en vertu de notre politique de confidentialité </legend>
+Nom et prénom : <input type="text" name ="cordonnées" id="coordonnées"> <br>
+téléphone :<input type=number name =tel id=tel> <br>
+eMail :<input type=email name=mail id =mail> <br>
+<span class=divers >comment avez vous connu notre centre?</span>
+<select name =Maliste id=liste >
+<option value=Tv>Television</option>
+<option value=radio>Radio</option>
+<option value=Presse>Presse</option>
+<option value=moteur>Moteur de recherche</option>
+<option value=autre>Autre</option>
+</select> <br>
+<label for="demande">Question,Renseignement,demande:</label>
+<br>
+<textarea name=viepoli rows=20 cols=50></textarea> <br>
+<input type="submit" value="envoyer">
+<input type ="reset" value="annuler" >
+</fieldset> 
+</form>
+</body>
+</html>
